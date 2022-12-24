@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".EventAdd">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Add Event Name"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/eventAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:hint="Add Event Name"
+            android:inputType="textPersonName"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/eventPrize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginStart="12dp"
+            android:hint="Add Event Prize"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/mAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_register"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Add Event" />
+
+    </LinearLayout>
+
+</LinearLayout>

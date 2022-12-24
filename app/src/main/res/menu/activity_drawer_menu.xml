@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/nav_home" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="@string/nav_events" />
+
+        <item
+            android:id="@+id/nav_recruitment"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="@string/recruitment" />
+
+        <item
+            android:id="@+id/nav_sponsors"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="@string/nav_sponsors" />
+
+<!--
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="@string/nav_notifications" />
+-->
+
+        <item
+            android:id="@+id/nav_event_user"
+            android:icon="@mipmap/add_post"
+            android:title="Request for event"/>
+<!--
+        <item
+            android:id="@+id/nav_scan_qr"
+            android:title="Scan QR code"
+            android:icon="@drawable/scan"/>-->
+<!--
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/nav_settings" />-->
+
+        <item
+            android:id="@+id/admin"
+            android:icon="@drawable/ic_supervisor_account_black_24dp"
+            android:title="Admin" />
+
+
+        <item
+            android:id="@+id/nav_about_us"
+            android:title="@string/nav_about_us"
+            android:icon="@drawable/ic_people_black_24dp"/>
+
+        <item
+            android:id="@+id/nav_action_logout"
+            android:title="@string/action_logout"
+            android:icon="@drawable/ic_event_black_24dp"/>
+    </group>
+
+</menu>

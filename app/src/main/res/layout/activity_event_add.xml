@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linear_1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/addeventname"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="12dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_register"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="3">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_supervisor_account_black_24dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Add Events Names"
+                        android:textColor="@android:color/black"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/addevent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="12dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_register"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="3">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_supervisor_account_black_24dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Post Events"
+                        android:textColor="@android:color/black"
+                        android:textSize="14dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/addsponsors"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="12dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_register"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="3">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_supervisor_account_black_24dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Add Sponsors"
+                        android:textColor="@android:color/black"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/recruitment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="12dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_register"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="3">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_supervisor_account_black_24dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Post Vancancies"
+                        android:textColor="@android:color/black"
+                        android:textSize="14dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/postNews"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="12dp"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="3">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_supervisor_account_black_24dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="Add News"
+                    android:textColor="@android:color/black"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

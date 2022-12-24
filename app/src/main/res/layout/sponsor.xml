@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/background_image"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:text="SPONSORS"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="22dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/white"
+        android:background="#EC76B1"
+        android:fontFamily="sans-serif"/>
+
+    <!--<TextView
+        android:id="@+id/tv_no_movies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="No Movies Available Please Enter your fav movie by clicking + button"
+        android:textAlignment="center"
+        android:textSize="18sp"/>-->
+
+
+    <ProgressBar
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        style="@style/ProgressTheme"
+        android:id="@+id/progressbar"/>
+
+
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/sponsors_list"
+            android:scrollbars="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"/>
+
+    </FrameLayout>
+</LinearLayout>

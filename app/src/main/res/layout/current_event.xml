@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/linearLayout"
+    android:layout_height="125dp"
+    android:weightSum="2"
+    android:layout_width="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.4"
+        android:layout_margin="12dp"
+        app:cardBackgroundColor="@android:color/transparent">
+
+        <ImageView
+            android:id="@+id/event_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo"
+            android:layout_gravity="center"
+            android:gravity="center" />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="12dp"
+        android:layout_height="match_parent"
+        app:cardElevation="8dp"
+        app:cardBackgroundColor="#EC76B1"
+        android:layout_weight="0.6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="6dp">
+
+        <TextView
+            android:id="@+id/image_uploader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Event_name"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="The event Description of the events."
+            android:textColor="@android:color/white"
+            android:textSize="14dp"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

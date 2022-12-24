@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/add_btn" />
+
+        <EditText
+            android:id="@+id/upload_sponsors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:background="@drawable/background"
+            android:hint="Name Of Sponsors"
+            android:inputType="textPersonName"
+            android:maxLength="10"
+            android:padding="@dimen/activity_horizontal_margin" />
+
+        <Button
+            android:id="@+id/post_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:background="@drawable/btn_sign_in"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:text="Event Add" />
+
+    </LinearLayout>
+
+
+</ScrollView>

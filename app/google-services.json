@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "465455677024",
+    "firebase_url": "https://rotaract-1c7a8.firebaseio.com",
+    "project_id": "rotaract-1c7a8",
+    "storage_bucket": "rotaract-1c7a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465455677024:android:1a466329ec540029",
+        "android_client_info": {
+          "package_name": "com.example.harshad.rotaract"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465455677024-2u5bdvhi8gmls4qf90bm45ndthvp3m32.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.harshad.rotaract",
+            "certificate_hash": "f7f0157ace24dc97a8cfa1c10849fb4ed12b3153"
+          }
+        },
+        {
+          "client_id": "465455677024-a6g0ed2b1btultr3vfoq4c50m9mcteo5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXEsd5cOUHGUJ43fGJbC0FPKSvTwH9BXI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465455677024-a6g0ed2b1btultr3vfoq4c50m9mcteo5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

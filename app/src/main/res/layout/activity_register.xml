@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollviewRegister"
+    android:layout_width="match_parent"
+    android:background="@drawable/background_image"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="8dp"
+        app:cardElevation="8dp">
+
+        <LinearLayout
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/registerUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/registerEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@android:color/black"/>
+
+            <EditText
+                android:id="@+id/registerPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+          />
+
+            <EditText
+                android:id="@+id/registerEnrollment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Enrollment No"
+                android:inputType="number"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                 />
+
+            <EditText
+                android:id="@+id/registerBranch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Branch"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/registerSemester"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Semester"
+                android:inputType="number"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@android:color/black" />
+
+
+            <EditText
+                android:id="@+id/registerMobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Mobile No"
+                android:inputType="number"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+               />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_register"
+                android:layout_marginTop="16dp"
+                android:padding="8dp"
+                android:text="Register"
+                android:id="@+id/registerbtn"
+                />
+
+            <ProgressBar
+                android:id="@+id/progressbarRegister"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</ScrollView>

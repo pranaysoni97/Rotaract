@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.harshad.rotaract">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:backupInForeground="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NewsActivity"
+            android:label="Home"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".AboutUsActivity"
+            android:label="About Us"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyStyle" />
+        <activity
+            android:name=".PrivacyPolicyActivity"
+            android:label="Privacy Policy"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyStyle" />
+        <activity
+            android:name=".EventDescription"
+            android:label="Event Description"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyStyle" />
+
+        <activity
+            android:name=".RegistrationForm"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EventAdd"
+            android:label="Event Add"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".EventNameAdd"
+            android:label="EventNameAdd"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".UploadEvent"
+            android:label="Upload Event"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".AddSponsors"
+            android:label="Add Sponsors"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".AddRecruitment"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".RecruitmentApply"
+            android:label="Recruitment"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".PostNews"
+            android:label="PostNews"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+
+        <activity android:name=".ScanActivity"
+            android:label="Scan QR code"
+            android:theme="@style/MyStyle"/>
+
+        <activity android:name=".RegisterActivity"
+            android:label="Registration"
+            android:theme="@style/MyStyle"></activity>
+    </application>
+
+</manifest>
